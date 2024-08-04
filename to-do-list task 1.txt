@@ -59,7 +59,7 @@ def main():
     task_manager = TaskManager(filename)
 
     while True:
-        print("\n===== To-Do List Manager =====")
+        print("To-Do List Manager")
         print("1. Add Task")
         print("2. Remove Task")
         print("3. Mark Task as Completed")
@@ -107,7 +107,7 @@ def main():
                 print("All tasks cleared.")
 
         elif choice == '6':
-            print("Exiting program...")
+            print("Exiting program")
             break
 
         else:
