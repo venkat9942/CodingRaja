@@ -59,7 +59,7 @@ def main():
     budget_tracker = BudgetTracker(filename)
 
     while True:
-        print("\n===== Budget Tracker =====")
+        print("Budget Tracker ")
         print("1. Add Income")
         print("2. Add Expense")
         print("3. View Transactions")
@@ -100,7 +100,7 @@ def main():
                     print(f"{category}: ${total:.2f}")
 
         elif choice == '6':
-            print("Exiting program...")
+            print("Exiting program")
             break
 
         else:
